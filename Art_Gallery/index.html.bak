@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Art Gallery </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+		<style>
+		
+		h1 {font-size:300%;
+			color: red;
+			font-family:Hubballi;
+			text-align:center;}
+		
+		p { font-family:Hubballi;
+			font-size: 120%;}
+		
+		.image::first-letter {
+				color: #ff0000;
+				font-size: x-large;}
+				
+		img { width:200px;
+			  height: 250px; }
+			  
+		#all {	 width:920px;    
+				 margin-top:-32px;
+				 position: relative;
+				 margin-left:auto;
+				 margin-right:auto;
+				 background-color: #d1cff6;}
+					
+		#first {width: 200px;
+				margin-left:80px;
+				float:left; }
+		
+		#second{position:relative;
+				margin-left:80px;
+				width:200px;
+				float:left;	}
+		
+		#third {margin-left:80px;
+				margin-right:80px;
+				float:left;
+				width:200px;
+				position:relative; }
+		
+		#fourth {   clear:both;	
+					float:left;
+					margin-left:80px;
+					position:relative;
+					width:200px;}
+		
+		#fifth {width:200px;
+				margin-left:80px;
+				float:left;}
+		
+		#sixth {width:200px;
+				float:left;
+				margin-left:80px;
+				margin-right:80px;
+				position:relative;}
+		
+		#seventh {  clear:both;	
+					float:left;
+					margin-left:80px;
+					position:relative;
+					width:200px;}
+		
+		#eight {width:200px;
+				margin-left:80px;
+				float:left;}
+				 
+		#ninth {margin-left:80px;
+				margin-right:80px;
+				float:left;
+				width:200px;
+				position:relative;}
+		
+		#footer {text-align:center;
+				color:white;
+				clear:both;
+				padding: 15px;
+				background:#302d40;
+				margin-bottom:-15px;
+				border: 5px;
+				border-style:outset;}		
+		</style>
+	</head>
+    <body>
+	
+	<div id="all">
+	<h1> Art Gallery </h1>
+		<div id="first">
+		<img src="first.jpg"> 
+		<p class="image">Random Image</p>
+		</div>
+		<div id="second">
+		<img src="second.jpg"> 
+		<p class="image">Random Image 2</p>
+		</div>
+		<div id="third">
+		<img src="third.jpg"> 
+		<p class="image">Random Image 3</p>
+		</div>
+		<div id="fourth">
+		<img src="fourth.jpg"> 
+		<p class="image">Random Image 4</p>
+		</div>
+		<div id="fifth">
+		<img src="fifth.jpg"> 
+		<p class="image">Random Image 5</p>
+		</div>
+		<div id="sixth">
+		<img src="sixth.jpg"> 
+		<p class="image">Random Image 6</p>
+		</div>
+		<div id="seventh">
+		<img src="seventh.jpg"> 
+		<p class="image">Random Image 7</p>
+		</div>
+		<div id="eight">
+		<img src="eight.jpg"> 
+		<p class="image">Random Image 8</p>
+		</div>
+		<div id="ninth">
+		<img src="ninth.jpg"> 
+		<p class="image">Random Image 9</p>
+		</div>
+		
+		<div id="footer">
+		<p> End of the Art Gallery &copy Aleks Atanasov</p>
+		</div>
+	</div>
+	
+	</body>
+</html>

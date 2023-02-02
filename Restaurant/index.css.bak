@@ -1,0 +1,42 @@
+body {
+	background-image: url("Photos/background.jpg");
+	background-size: cover;
+	font-family: "Lucida Handwriting",cursive;
+	}
+
+h1 {
+	color:white;
+	text-align:center;
+	font-family: "Lucida Handwriting",cursive;
+	font-size:500%;	
+	}
+h2 {
+	color: white;
+	text-align: center;
+	font-family: "Lucida Handwriting",cursive;
+	font-size: 350%;
+	}
+
+img {
+	width:260px;
+	height: 250px;
+	border-color: white;
+	border-width:6;
+	border-style:outset;
+	border-radius:50%;
+	
+	}
+div {
+	margin-top:770px;
+	display:flex;
+	justify-content:space-around;
+	}
+	
+a {
+	text-decoration:none; 
+	}
+p {
+	text-align:center;
+	font-size:40px;
+	color: white;
+}
